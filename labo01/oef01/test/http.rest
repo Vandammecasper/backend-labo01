@@ -1,0 +1,34 @@
+GET http://localhost:5000/wines HTTP/1.1
+
+###
+
+GET http://localhost:5000/wine/2 HTTP/1.1
+
+###
+POST http://localhost:5000/wines HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Chateau Pavie",
+  "year": 2002,
+  "country": "Frankrijk",
+  "color": "Red",
+  "price": 199,
+  "grapes": "Merlot, Cabernet Franc, Cabernet Sauvignon"
+}
+
+###
+DELETE http://localhost:5000/wine/3 HTTP/1.1
+
+###
+PUT http://localhost:5000/wine/1 HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Chateau Pavie",
+  "year": 2002,
+  "country": "Frankrijk",
+  "color": "Red",
+  "price": 199,
+  "grapes": "Merlot, Cabernet Franc, Cabernet Sauvignon"
+}
