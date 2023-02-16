@@ -1,5 +1,5 @@
 
-namespace labo01.Validators;
+namespace oef01.Validators;
 
 public class WineValidator : AbstractValidator<Wine>
 {

@@ -1,0 +1,32 @@
+GET http://localhost:5000/brands HTTP/1.1
+
+###
+
+GET http://localhost:5000/brands/Germany HTTP/1.1
+
+###
+
+POST http://localhost:5000/brands HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "Porsche",
+    "country": "Germany",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Porsche_Logo.svg/1200px-Porsche_Logo.svg.png"
+}
+
+###
+
+GET http://localhost:5000/brand/Audi HTTP/1.1
+###
+
+GET http://localhost:5000/models HTTP/1.1
+###
+
+GET http://localhost:5000/models/Audi HTTP/1.1
+###
+
+GET http://localhost:5000/model/A4 HTTP/1.1
+###
+
+GET http://localhost:5000/carmodels/Germany HTTP/1.1

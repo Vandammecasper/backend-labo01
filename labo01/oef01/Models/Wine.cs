@@ -1,4 +1,4 @@
-namespace labo01.Models
+namespace oef01.Models
 {
     public class Wine
     {
